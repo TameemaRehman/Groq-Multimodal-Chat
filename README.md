@@ -8,11 +8,16 @@ A Streamlit-based front-end for interacting with Groq’s multimodal LLM (Llama 
 
 **Usage**
 1) Run the Streamlit app
+   ```bash
     streamlit run app_streamlit.py
-
+   ```
+    
 2) Interact
-    Enter your message and (optionally) an image URL or upload
-    Click Send to see the model’s response
+    * Enter your message and (optionally) an image URL or upload.
+    * Click Send to see the model’s response.
 
-3) Streamlit errors
-     Upgrade to the latest Streamlit: pip install --upgrade streamlit
+4) Streamlit errors
+     Upgrade to the latest Streamlit:
+    ```bash
+     pip install --upgrade streamlit
+    ```
